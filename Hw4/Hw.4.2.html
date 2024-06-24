@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        .page{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .red{
+            background-color: #6a0303;
+        }
+        .green{
+            background-color: #055005;
+        }
+        .blue{
+            background-color: #2222f6;
+        }
+        p{
+            margin-inline: 100px 100px;
+        }
+        h3{
+            font-size: 40px;
+        }
+       a{
+        text-decoration: none;
+           color: black;
+       }
+    </style>
+</head>
+<body>
+<div id="first" class="page red">
+    <h2>Section Title</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi doloremque harum quaerat quam sequi. Aliquam atque autem, beatae enim eos hic itaque labore nobis non sapiente? Aliquid ipsam nulla veritatis.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, asperiores consequuntur, deserunt eum eveniet ex facere iusto mollitia porro quis quos recusandae reiciendis reprehenderit repudiandae sapiente, voluptas voluptatem. Cumque, harum!</p>
+    <a href="#second"><h3>&dArr;</h3></a>
+</div>
+<div id="second" class="page green"><a href="#first"><h3>&uArr;</h3></a><h2>Section Title</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium aliquid at dolore, enim eum facere fuga id illo incidunt iure magnam modi molestiae nesciunt officia rerum sequi tempora voluptas!</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias blanditiis cumque dolor, ducimus eius eos error et, eum eveniet iusto mollitia nostrum quibusdam quo quos reiciendis rem ullam vero voluptatum.</p>
+    <a href="#3th"><h3>&dArr;</h3></a></div>
+<div id="3th" class="page blue"><a href="#second"><h3>&uArr;</h3></a><h2>Section Title</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aspernatur delectus ducimus excepturi illo illum ipsam porro sequi ullam voluptas. Ducimus fuga hic illum nemo neque, nulla omnis quam tempore!</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid architecto autem consectetur culpa dolorem ducimus ea eaque fuga harum illo impedit inventore maiores pariatur porro quidem, quis reiciendis ut!</p></div>
+</body>
+</html>
