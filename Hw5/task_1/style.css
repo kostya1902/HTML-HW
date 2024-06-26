@@ -4,11 +4,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+.active{
+    color: #032203;
+}
 header{
     height: 10vh;
     font-family: "Orbitron", sans-serif;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 header div{
@@ -18,17 +21,58 @@ header div{
     flex-direction: column;
 }
 header nav{
-    width: 60%;
+    width: 50%;
 }
 header nav ul{
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
 header nav ul li{
 }
 header nav ul li a{
     text-decoration: none;
     color: #7a7878;
+    transition: 0.5s;
+    font-size: 20px;
 }
-header nav ul li a:hover
+header nav ul li a:hover{
+    color: #0b400b;
+    transition: 1s;
+}
+section{
+    height: 90vh;
+    font-family: "Orbitron", sans-serif;
+    background-image: url("images/forest_for_home.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+.first_txt{
+      margin-top: 15vh;
+  }
+section p{
+    font-size: 20px;
+}
+h1{
+    font-size: 100px;
+    letter-spacing: 40px;
+    margin: 15px 0;
+}
+section button{
+    width: 175px;
+    height: 40px;
+    background-color: black;
+    margin-top: 20px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+section button:hover{
+    transform: scale(1.1);
+
+}
