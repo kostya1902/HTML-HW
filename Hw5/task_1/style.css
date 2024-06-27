@@ -74,5 +74,11 @@ section button{
 }
 section button:hover{
     transform: scale(1.1);
+}
+address{
+    height: 90vh;
+    background-image: url("images/forest_for_contact.jpg");
+background-size: cover;
+    display: flex;
 
 }
