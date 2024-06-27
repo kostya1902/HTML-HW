@@ -7,6 +7,7 @@
 .active{
     color: #032203;
 }
+/*-------------------------header-------------------------------*/
 header{
     height: 10vh;
     font-family: "Orbitron", sans-serif;
@@ -41,6 +42,8 @@ header nav ul li a:hover{
     color: #0b400b;
     transition: 1s;
 }
+/*--------------------------header----------------------------- */
+/*---------------------------section---------------------------- */
 section{
     height: 90vh;
     font-family: "Orbitron", sans-serif;
@@ -75,10 +78,64 @@ section button{
 section button:hover{
     transform: scale(1.1);
 }
+/*---------------------------section---------------------------- */
+/*--------------------------address----------------------------- */
 address{
     height: 90vh;
     background-image: url("images/forest_for_contact.jpg");
 background-size: cover;
     display: flex;
-
+justify-content: center;
+    align-items: center;
 }
+address .main{
+    width: 500px;
+    height: 400px;
+    background-color: rgba(172, 167, 167, 0.81);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+address .contact{
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-direction: column;
+}
+address .contact h2{
+    font-family: "Orbitron", sans-serif;
+    color: #020702;
+    margin-bottom: 40px;
+}
+address ol li .img{
+    height: 25px;
+    width: 25px;
+}
+address ol li a{
+    text-decoration: none;
+    color: #020702;
+    margin-left: 10px;
+}
+address ol{
+    list-style-type: none;
+}
+address ol li{
+    display: flex;
+    margin-top: 10px;
+}
+address .address {
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+address div .address h2 {
+    font-family: "Orbitron", sans-serif;
+    color: #020702;
+    margin-bottom: 30px;
+}
+
